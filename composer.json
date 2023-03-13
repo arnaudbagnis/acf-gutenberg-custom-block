@@ -1,10 +1,22 @@
-    {
+{
+    "name": "arnaudbagnis/acf-gutenberg-custom-block",
+    "description": "Acf Gutenberg custom Block for Lumberjack Framework",
+    "type": "package",
     "require": {
+        "php": ">=7.3||>=8.0",
         "rareloop/lumberjack-core": "^5.0"
     },
-    "config": {
-        "allow-plugins": {
-            "composer/installers": true
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Arnaud Bagnis",
+            "email": "arnaud.bagnis@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "AcfGutenbergCustomBlock\\": "src/"
         }
     }
 }
