@@ -1,6 +1,6 @@
 <?php
 
-namespace Block;
+namespace AcfGutenbergCustomBlock\Block;
 
 class AbstractBlock
 {
