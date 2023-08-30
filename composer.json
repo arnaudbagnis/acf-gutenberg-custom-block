@@ -4,7 +4,7 @@
     "type": "package",
     "require": {
         "php": ">=7.3||>=8.0",
-        "rareloop/lumberjack-core": "^5"
+        "rareloop/lumberjack-core": ">=5"
     },
     "license": "mit",
     "authors": [
